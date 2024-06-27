@@ -1,3 +1,4 @@
+using GV.Extensions;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,7 @@ public sealed class MapPreviewDisplayManager : MonoBehaviour
     [SerializeField] private Image mapPreviewImageReference;
     [SerializeField] private GameObject pleaseWaitImageReference;
 
-    [SerializeField] private Sprite[] mapPreviewSprites;
+    [ReadOnly][SerializeField] private Sprite[] mapPreviewSprites; 
 
     public Sprite CurrentMapPreview { get; private set; }
 
@@ -17,7 +18,9 @@ public sealed class MapPreviewDisplayManager : MonoBehaviour
 
     private void Awake()
     {
-        MapPreviewSprites = Resources.LoadAll<Sprite>("Sprites/17188");
+        // Remover isso daqui
+        // Criar um objeto para guardar todos esses valores
+        MapPreviewSprites = Resources.LoadAll<Sprite>("Sprites/MapPreviews");
     }
 
     public void UpdateMapPreviewDisplay(int index)

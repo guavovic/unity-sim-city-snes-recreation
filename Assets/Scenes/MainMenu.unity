@@ -5633,11 +5633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapPreviewImageReference: {fileID: 2001843866}
   pleaseWaitImageReference: {fileID: 1843442448}
-  mapPreviewSprites:
-  - {fileID: -1427846359, guid: 72d0d68ff622afc4f91f62ba215b807c, type: 3}
-  - {fileID: -460482149, guid: 72d0d68ff622afc4f91f62ba215b807c, type: 3}
-  - {fileID: 1415300166, guid: 72d0d68ff622afc4f91f62ba215b807c, type: 3}
-  - {fileID: -1263191878, guid: 72d0d68ff622afc4f91f62ba215b807c, type: 3}
+  mapPreviewSprites: []
 --- !u!1 &1419613395
 GameObject:
   m_ObjectHideFlags: 0
