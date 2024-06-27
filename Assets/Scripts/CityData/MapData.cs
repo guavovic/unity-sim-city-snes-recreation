@@ -3,12 +3,15 @@ using UnityEngine;
 
 public class MapData
 {
+    // Remover daqui
     public const int MAP_WIDTH = 120;
     public const int MAP_HEIGHT = 100;
 
     public static readonly Color32 LAND_COLOR = new Color32(181, 173, 140, 255);
     public static readonly Color32 FOREST_COLOR = new Color32(0, 66, 0, 255);
     public static readonly Color32 WATER_COLOR = new Color32(66, 132, 132, 255);
+
+    // Remover daqui
 
     private readonly Dictionary<TerrainType, int> _terrainAmounts = new Dictionary<TerrainType, int>
         {
@@ -38,11 +41,14 @@ public class MapData
         MapSprite = mapSprite;
         IsIsland = isIsland;
         MapMatrix = mapTiles;
-    }
 
-    public void SetId(int id)
-    {
-        Id = id;
+        for (int y = 0; y < mapTiles.GetLength(0); y++)
+        {
+            for (int x = 0; x < mapTiles.GetLength(1); x++)
+            {
+                MapMatrix[y, x] = new MapTile();
+            }
+        }
     }
 
     public void SetMapSprite(Sprite mapSprite) { MapSprite = mapSprite; }

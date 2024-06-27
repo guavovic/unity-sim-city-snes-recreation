@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class CityModel
+public sealed class CityModel
 {
     public string Name { get; private set; }
     public CityType CurrentCityType { get; private set; }
@@ -11,8 +11,12 @@ public class CityModel
 
     public CityModel(string name, string mayorName, MapData mapData)
     {
-        this.Name = name;
-        this.MayorName = mayorName;
-        this.MapData = mapData;
+        Name = name;
+        MayorName = mayorName;
+        MapData = mapData;
     }
+
+    public void SetCurrentCityType(CityType cityType) { CurrentCityType = cityType; }
+
+    public void SetCurrentClimateType(ClimateType climateType) { CurrentClimateType = climateType; }
 }

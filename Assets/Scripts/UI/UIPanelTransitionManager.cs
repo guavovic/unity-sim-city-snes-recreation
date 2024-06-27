@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,92 +7,52 @@ public sealed class UIPanelTransitionManager : MonoBehaviour
     [SerializeField] private float fadeDuration = 0.5f;
     [SerializeField] private float betweenFadeDuration = 0.5f;
 
-    [SerializeField] private GameObject fadeTransitionPanel;
-
-    private CanvasGroup _fadeTransitionPanelCanvasGroup;
-
     private UIPanelsManager _uIPanelsManager;
-    private KeyboardInputDisplayManager _keyboardInputDisplayManager;
+    private UIFadeTransitionPanelSettings _uIFadeTransitionPanelSettings;
+
+    public static UIPanelTransitionManager Instance;
 
     private void Awake()
     {
-        _uIPanelsManager = FindObjectOfType<UIPanelsManager>();
-        _keyboardInputDisplayManager = FindObjectOfType<KeyboardInputDisplayManager>();
-
-        _fadeTransitionPanelCanvasGroup = fadeTransitionPanel.AddComponent<CanvasGroup>();
-        _fadeTransitionPanelCanvasGroup.alpha = 0;
-        _fadeTransitionPanelCanvasGroup.interactable = true;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(Instance);
+        }
+        else
+        {
+            Destroy(Instance);
+        }
     }
 
     private void Start()
     {
-        fadeTransitionPanel.SetActive(false);
+        _uIPanelsManager = FindObjectOfType<UIPanelsManager>();
+        _uIFadeTransitionPanelSettings = FindObjectOfType<UIFadeTransitionPanelSettings>(true);
     }
 
-    public void ShowNextPanel(UIPanelType panelType)
+    public void ExecutePanelTransition(NavigationActionType navigationAction, UIPanelType panelType, params Action[] actionsBetweenFade)
     {
-        StartCoroutine(TransitionToPanel(panelType));
+        StartCoroutine(PerformPanelTransitionCoroutine(navigationAction, panelType, actionsBetweenFade));
     }
 
-    public void ShowPreviousPanel()
+    private IEnumerator PerformPanelTransitionCoroutine(NavigationActionType navigationAction, UIPanelType panelType, params Action[] actionsBetweenFade)
     {
-        StartCoroutine(TransitionToPreviousPanel());
-    }
+        yield return StartCoroutine(UIFadeTransition.FadeInCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
 
-    private IEnumerator TransitionToPanel(UIPanelType panelType)
-    {
-        yield return StartCoroutine(FadeIn());
-
-        _uIPanelsManager.GoToPanel(panelType);
-        _keyboardInputDisplayManager.UpdateDisplayState();
-
-        yield return new WaitForSeconds(betweenFadeDuration);
-        yield return StartCoroutine(FadeOut());
-    }
-
-    private IEnumerator TransitionToPreviousPanel()
-    {
-        yield return StartCoroutine(FadeIn());
-
-        _uIPanelsManager.PreviousPanel();
-        _keyboardInputDisplayManager.UpdateDisplayState();
-
-        yield return new WaitForSeconds(betweenFadeDuration);
-        yield return StartCoroutine(FadeOut());
-    }
-
-    private IEnumerator FadeOut()
-    {
-        float startAlpha = _fadeTransitionPanelCanvasGroup.alpha;
-        float rate = 1.0f / fadeDuration;
-        float progress = 0.0f;
-
-        while (progress < 1.0f)
+        if (navigationAction == NavigationActionType.Next)
         {
-            _fadeTransitionPanelCanvasGroup.alpha = Mathf.Lerp(startAlpha, 0, progress);
-            progress += rate * Time.deltaTime;
-            yield return null;
+            _uIPanelsManager.GoToPanel(panelType);
+        }
+        else if (navigationAction == NavigationActionType.Back)
+        {
+            _uIPanelsManager.PreviousPanel();
         }
 
-        _fadeTransitionPanelCanvasGroup.alpha = 0;
-        fadeTransitionPanel.SetActive(false);
-    }
+        foreach (var action in actionsBetweenFade)
+            action?.Invoke();
 
-    private IEnumerator FadeIn()
-    {
-        float startAlpha = _fadeTransitionPanelCanvasGroup.alpha;
-        float rate = 1.0f / fadeDuration;
-        float progress = 0.0f;
-
-        fadeTransitionPanel.SetActive(true);
-
-        while (progress < 1.0f)
-        {
-            _fadeTransitionPanelCanvasGroup.alpha = Mathf.Lerp(startAlpha, 1, progress);
-            progress += rate * Time.deltaTime;
-            yield return null;
-        }
-
-        _fadeTransitionPanelCanvasGroup.alpha = 1;
+        yield return new WaitForSeconds(betweenFadeDuration);
+        yield return StartCoroutine(UIFadeTransition.FadeOutCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
     }
 }

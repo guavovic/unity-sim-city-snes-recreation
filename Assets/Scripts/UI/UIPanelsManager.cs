@@ -8,9 +8,6 @@ public sealed class UIPanelsManager : MonoBehaviour
     private Stack<UIPanel> _panelStack;
     private UIPanel _currentPanelActive;
 
-    public UIPanel FindUIPanelPerType(UIPanelType panelType) => uIPanelModels.Find(panel => panel.Type == panelType);
-    public UIPanelType GetCurrentActivePanelTType() => _currentPanelActive.Type;
-
     private void Awake()
     {
         _panelStack = new Stack<UIPanel>();
@@ -59,4 +56,8 @@ public sealed class UIPanelsManager : MonoBehaviour
             _currentPanelActive.Panel.SetActive(true);
         }
     }
+
+    public UIPanel FindUIPanelPerType(UIPanelType panelType) => uIPanelModels.Find(panel => panel.Type == panelType);
+
+    public UIPanelType GetCurrentActivePanelTType() => _currentPanelActive.Type;
 }

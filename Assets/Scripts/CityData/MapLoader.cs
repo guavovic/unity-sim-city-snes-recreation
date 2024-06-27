@@ -1,94 +1,101 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapLoader : MonoBehaviour
+public sealed class MapLoader : MonoBehaviour
 {
-    // Criar um objeto para guardar e
+    // Sprites para diferentes tipos de terreno
     public Sprite landSprite;
     public Sprite grassSprite;
     public Sprite forestSprite;
     public Sprite shoreSprite;
     public Sprite waterSprite;
 
-    private MapTile[,] _mapTiles;
-
     private GameManager _gameManager;
 
+    public static MapLoader Instance { get; private set; }
 
-    private void Start()
+    private void Awake() { Instance = this; }
+
+    private void Start() { _gameManager = GameManager.Instance; }
+
+    public void InitializeLoad()
     {
-        _gameManager = GameManager.Instance;
-        _mapTiles = _gameManager.GameSettings.CurrentCity.MapData.MapMatrix;
-
-        GenerateMapMatrixGameObjects();
-        SetupMapMatrixGameObjects();
+        CreateMapTiles();
+        InitializeMapTiles();
     }
 
-    private void GenerateMapMatrixGameObjects()
+    private void CreateMapTiles()
     {
-        for (int y = 0; y < MapData.MAP_HEIGHT; y++)
+        var mapMatrix = _gameManager.GameSettings.CurrentCity.MapData.MapMatrix;
+
+        for (int y = 0; y < mapMatrix.GetLength(1); y++)
         {
-            for (int x = 0; x < MapData.MAP_WIDTH; x++)
+            for (int x = 0; x < mapMatrix.GetLength(0); x++)
             {
-                MapTile tile = new MapTile($"x:{x}; y:{y}");
-                tile.SetParent(this.transform);
-                _mapTiles[x, y] = tile;
+                var tile = mapMatrix[x, y];
+                tile.SetGameObject(new GameObject());
+                tile.SetParent(transform);
+                tile.SetSpriteRenderer(tile.GameObject.AddComponent<SpriteRenderer>());
             }
         }
     }
 
-    private void SetupMapMatrixGameObjects()
+    private void InitializeMapTiles()
     {
         const float tileScale = 0.356f;
 
-        int mapWidth = _mapTiles.GetLength(0);
-        int mapHeight = _mapTiles.GetLength(1);
+        var mapMatrix = _gameManager.GameSettings.CurrentCity.MapData.MapMatrix;
+        int mapWidth = mapMatrix.GetLength(0);
+        int mapHeight = mapMatrix.GetLength(1);
 
         for (int y = 0; y < mapHeight; y++)
         {
             for (int x = 0; x < mapWidth; x++)
             {
+                var tile = mapMatrix[x, y];
                 string name;
                 Sprite tileSprite;
 
-                switch ((TerrainType)_mapTiles[x, y].Value)
+                switch ((TerrainType)tile.Value)
                 {
                     case TerrainType.Forest:
                         name = TerrainType.Forest.ToString();
                         tileSprite = forestSprite;
                         break;
-
                     case TerrainType.Water:
                         name = TerrainType.Water.ToString();
                         tileSprite = shoreSprite;
                         break;
-
                     default: // TerrainType.Land
                         name = TerrainType.Land.ToString();
                         tileSprite = landSprite;
                         break;
                 }
 
-                _mapTiles[x, y].SetName(name);
-                _mapTiles[x, y].SetMatrixIndex(x, y);
-                _mapTiles[x, y].SetPosition(new Vector2(x * tileScale, y * tileScale));
-                _mapTiles[x, y].SetSprite(tileSprite);
-                _mapTiles[x, y].SetScale(new Vector2(13 * tileScale, 13 * tileScale));
+                tile.SetName(name);
+                tile.SetMatrixIndex(x, y);
+                tile.SetPosition(new Vector2(x * tileScale, y * tileScale));
+                tile.SetSprite(tileSprite);
+                tile.SetScale(new Vector2(13 * tileScale, 13 * tileScale));
             }
         }
 
-        _gameManager.GameSettings.CurrentCity.MapData.SetMapBounds(CalculateBounds());
+        _gameManager.GameSettings.CurrentCity.MapData.SetMapBounds(CalculateMapBounds());
     }
 
-    private Bounds CalculateBounds()
+    private Bounds CalculateMapBounds()
     {
-        List<Renderer> renderers = new List<Renderer>(_mapTiles.Length);
+        var mapMatrix = _gameManager.GameSettings.CurrentCity.MapData.MapMatrix;
+        List<Renderer> renderers = new List<Renderer>(mapMatrix.Length);
+
+        foreach (var tile in mapMatrix)
+        {
+            if (tile.GameObject.TryGetComponent<Renderer>(out var renderer))
+                renderers.Add(renderer);
+        }
 
         if (renderers.Count == 0)
             return new Bounds(transform.position, Vector3.zero);
-
-        foreach (var tile in _mapTiles)
-            renderers.Add(tile.GameObject.GetComponent<Renderer>());
 
         Bounds bounds = renderers[0].bounds;
 

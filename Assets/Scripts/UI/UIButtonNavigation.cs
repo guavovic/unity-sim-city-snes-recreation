@@ -4,13 +4,6 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public sealed class UIButtonNavigation : MonoBehaviour
 {
-    private enum NavigationActionType
-    {
-        None,
-        Next,
-        Back
-    }
-
     [SerializeField] private UIPanelType panelType = UIPanelType.None;
     [SerializeField] private NavigationActionType navigationAction = NavigationActionType.None;
 
@@ -24,13 +17,6 @@ public sealed class UIButtonNavigation : MonoBehaviour
 
     private void OnButtonClick()
     {
-        if (navigationAction == NavigationActionType.Next)
-        {
-            _uItransitionManager.ShowNextPanel(panelType);
-        }
-        else if (navigationAction == NavigationActionType.Back)
-        {
-            _uItransitionManager.ShowPreviousPanel();
-        }
+        _uItransitionManager.ExecutePanelTransition(navigationAction, panelType);
     }
 }

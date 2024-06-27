@@ -1,0 +1,5020 @@
+fileFormatVersion: 2
+guid: 3161776eda5726c4faaa9bfd11eaeffb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SimCitySheet2_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99ab0f9bcb082b4397d9b134569344b
+      internalID: 1197087754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1233
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd143bb8bd6083e4aab7e5bae7380fa9
+      internalID: 743380792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1233
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559c6b8a37638946952e1a5d0c3b88b
+      internalID: 712354544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1233
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d701d751fb4a206458969ca5d7b2041b
+      internalID: -1643029422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1233
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5555bf5ab08ee45b2e9756eea026e6
+      internalID: -1215466971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1197
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab0c925190a25f4ca4fd1aa61485e81
+      internalID: 1444733778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1197
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d68c3977cc67944bff987cc0e9efb1
+      internalID: -392341425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1197
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d26ce24961ed4d9fb16a0e9ff721a
+      internalID: -1883095820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1197
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f52ed82efb9614dbfa953ae74c7848
+      internalID: -1042414052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aba2b3e25518b41b10aaf7d8b068d2
+      internalID: 1660158535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b258cde1b3dbae443880f76375d8bb5e
+      internalID: -1354679156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6c32ac2210324aa81413dff17e500
+      internalID: 611623254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a0a9067822180499dcdac98ab45c75
+      internalID: 1465990503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a046a35a50f63428fce4d983290eb0
+      internalID: -1857627005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da92ae0f8b623b54986980749bb6d270
+      internalID: -464866019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dcf27bc4043f344bfef5140de4ab3a
+      internalID: 633040086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1070
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914d45ad70d723f4ba6a30f434b313b2
+      internalID: -892250242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1070
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bdc13a61c83584c9aa84da01c25662
+      internalID: 530192177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1070
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c132acbfa0c67784dbe36b362c1300b4
+      internalID: -1893923787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1070
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291ceea2c8fea274ebd1d915aad7eaaa
+      internalID: -205520774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1030
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f61e7be6c508949930cd8658ca9101
+      internalID: -538463784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1030
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac9cb57ae9c3944294b307fc9666819
+      internalID: 2044788099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1030
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828bfccabe6d82b498cfbe29c968d949
+      internalID: -1265168726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1030
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ad27a69be20ba43b9b783310d9f554
+      internalID: 938630191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 989
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc684541dc62f75409c0fe9e7e864eab
+      internalID: 600468883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 989
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdae0949766fcc43a49cfd3247572d8
+      internalID: -1539175487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 989
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518f2ae3ebc69ed42ae452c814ef474d
+      internalID: 447955084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 989
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc5957bd74a434198f472f37f3616e
+      internalID: -1589897326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 948
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e65f465f438b3c468f71d6f3afdbb91
+      internalID: -787231911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 948
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb96efdac4074c469754a80a62c3745
+      internalID: 1621782937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 948
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51eddceef43dc74c8eca8d168a1de87
+      internalID: -966768664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 948
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f6d43e078555a42981a202bb6faaa5
+      internalID: -829566883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 908
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc064ee1b0d6542876e71b4bd2d987
+      internalID: -1929889375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 908
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddcb3204f5504840be3b5d7aa2561a9
+      internalID: -1359657982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 908
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4929e90fb97c6714aa6b0216d794794a
+      internalID: 1795931544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 908
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e2c032f056e914196ea5a0dc9847c1
+      internalID: -107892370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c27eb4c5be7f5649ab14146f8cc3657
+      internalID: 875856759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b978aab5c9a83b4792dc78c9c7d275a
+      internalID: -1694914102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c81150ece182c43ada9c3474d41cd8
+      internalID: 1376433030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7403f19de34cc24a87854a6d83045ce
+      internalID: -439599141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6eb204d82dd974ba8346f5f2792b51
+      internalID: 1292542487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 878
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99569b3f247f1564a88d637f14a881f9
+      internalID: 1874166492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_42
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 820
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545fe9c103880a449ad50112418f343f
+      internalID: 766858320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 850
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ef1109bdd15647af5ea51b4a544f6
+      internalID: 702672044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 850
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf402cfeeedf3e46b386576cea722ae
+      internalID: 1769532558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 850
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396fa179629002a4b84f8860dce30989
+      internalID: -1059242413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 850
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d11e40b57761da4cbfc4d4950c0f367
+      internalID: 707801382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 850
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041765db09950cc4d96f5b6d5f3c8a00
+      internalID: 1909273308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_48
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 820
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff65163a67ac904e90d25b9041dd7a4
+      internalID: -2115866853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 820
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c1cd5e5da0025448db37f4971ce406
+      internalID: 1204495148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 820
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c07905681713042b3076b7c2cf9ae2
+      internalID: -391165396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_51
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 820
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0573308b3817bf46b56b755f3a11d61
+      internalID: -1979403946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_52
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 820
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb176c060878142aac7fb328eadbbf
+      internalID: 1068509605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_53
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 786
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6729e2dd13c23b64690af97c12be4e7c
+      internalID: 1394617136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_54
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 786
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e890db3f6265bbb429e0b1db2e10abf9
+      internalID: -1651884360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 786
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f793986467481c479cfec3b5f10e4c8
+      internalID: -2050632133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_56
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 786
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d9e9b5bf298ac4e91743c8ed032236
+      internalID: 212188477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 786
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fba555374ee5ec418cbf41b467ec588
+      internalID: 2119164908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 786
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c0247d394c2bd40ba95b98c41da7b4
+      internalID: 1646817292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_59
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e0163f0846984ba9ea8e39f6a053c
+      internalID: 1379321834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_60
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adae064d37dd774b8513dabe431c881
+      internalID: 161407787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_61
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebdb54331df8c84389e0f30dc6ac2c6
+      internalID: -769222291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_62
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea6072ba9248344955fc5a98ba3a65
+      internalID: -56380696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_63
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d09b69629e8c79429575a6bb2f8c716
+      internalID: -808011552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 758
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a21c952a965b241b3926976e048aef
+      internalID: 2030993062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_65
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 701
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b273f666850e1494e8030f25181c61c0
+      internalID: -1433933888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 730
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e016e32e86b42994e80ac190b45325f7
+      internalID: -598324637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 730
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9199c518cc02e3c42a7783224278058a
+      internalID: -1400982833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 730
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f61be2d5187d5d4c8b6489ad7131850
+      internalID: 1906191025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_69
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 730
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8736fa7ed0a2ef47a95b96989bc297d
+      internalID: 75328833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 730
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d013a4dc41ed243bf9d71955a51c16
+      internalID: -381448496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 701
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dadaf6eebf22c48aebe7a0868777db
+      internalID: -1108055104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_72
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 701
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b6cd488e7e9d4cab2969b3f6e6264
+      internalID: -1782584721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_73
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 701
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ce1917fb7fc9647b8d60c302b87042
+      internalID: 1642683252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_74
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 701
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af36bfff94cceca4191447d3d4862a90
+      internalID: 729866139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_75
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 701
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14c8cf980f223147a90ad5615b198ff
+      internalID: -385469242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_76
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 669
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7355774decfb13942a05a6b7268bf82c
+      internalID: -348061851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_77
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 669
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31caf83774f6ec149a8a6bc200af3659
+      internalID: -1394734459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_78
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 669
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6070bda70d2af34b8e759b204b43998
+      internalID: 871481186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_79
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 669
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e1fbc9812dd894ab8f8c004b86eb42
+      internalID: -444941769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_80
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 669
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e3f61985343946a665d0c1891e3ec
+      internalID: 1285240391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_81
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 669
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8a23e27dd775b41bcea60d3887b4b9
+      internalID: 575739856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_82
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 641
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b0d56ecc43cd44dab94ac044fbce11
+      internalID: -349853030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_83
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbefe0c1fdb1274f9a875645c5eb135
+      internalID: -975515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_84
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c81fc31c244a24e8cd0264943a6e6c
+      internalID: -1586305044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 657
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e9e493e2063be41a82f846484ed082
+      internalID: -694823867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_86
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90335b28215845045a144e4c579f351a
+      internalID: -78846349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_87
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213bd93e55cf4344abbc31808a9ef20a
+      internalID: 194104541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_88
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 657
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7321a6ea1415c47b8d295d4a7cc8ef
+      internalID: -395318208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bf135620a6dd64c8615582416e2c01
+      internalID: -1321577133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_90
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f794bab9a2970488172bdec7bd058f
+      internalID: 1159727664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_91
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 657
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1133ac001a08b468570c7b639ba9fb
+      internalID: 1148090686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_92
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be82fed954a1b6b469117af4fec3335c
+      internalID: 1438587339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_93
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8fc187a12978478f3cab2f121a467
+      internalID: -1968219192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_94
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 657
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879f98bbcee965418003d3c2d4a1a3c
+      internalID: -1565770076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_95
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba217019874ef0e489668039f322763e
+      internalID: -2033402008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_96
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa07e0594e0c6c42a8c5db6375b37aa
+      internalID: -1798202772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 646
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551cd42d1c5247e4b9b7771f465b9007
+      internalID: -286684373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_98
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6074b9dbe221ece45946eadd9111507c
+      internalID: -1725930904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_99
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b43a3c3d441f94a8adf814157a8f5b
+      internalID: 914511348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_100
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 646
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065e58a66aeddf949942a56ad9862b4e
+      internalID: 1311800886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a695558e2630342841da6b46ed01b7
+      internalID: -699928696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_102
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114458fe2d7082645b93585fb3e8b2a3
+      internalID: -240964667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_103
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 646
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb109ef0a20e8b44992a461dad60b994
+      internalID: -694176014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_104
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9427303a7eccaa540bc56e97645efc52
+      internalID: -310304492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_105
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4d0235034eb2408ca50d1ff4c70c9
+      internalID: 661515092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_106
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 646
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e771719c7e41fb469bc15dd15eba39e
+      internalID: 1617129522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_107
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a128248a6dde3894da9038e655ff604c
+      internalID: 400911248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_108
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c52a4c2f941e724aab2a022ef25fb6e
+      internalID: -2048270629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 635
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df66b9934c3abf47adfa87d81f1cf5d
+      internalID: -444881058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_110
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31bec14b441dca4a9d7f9d022a90f2e
+      internalID: -514477867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334864b9cd408534e8068cfe881801ea
+      internalID: 1768182853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_112
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 635
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d31817697d405d4ea2f717c9ce15166
+      internalID: -1583300687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3348136132dbd489ba63049e91e170
+      internalID: -425628874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_114
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d379dbb7f737645992d06ca8294c11
+      internalID: -320586223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_115
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 635
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58364b9717089b41a60914d24e352bc
+      internalID: 1508536782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_116
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5939a90a1252b15478b5eef27d3073d1
+      internalID: -1882182948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872b861820667564888540c4516d2882
+      internalID: -309095929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_118
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 635
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29540e4116ea38d4ab054d218c8ce40c
+      internalID: 593490553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_119
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708546a90894534187a51028a5dc906
+      internalID: 152727336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_120
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd305664c43bc284d8dbe8969834aabf
+      internalID: -1837879557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_121
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea02434718bac7c4c9f77175a864032a
+      internalID: 1856348417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_122
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a6516ac3813f2479952343615d110d
+      internalID: 1463543757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_123
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db55a47dd61b1d14a8c403604f095db6
+      internalID: -1375021982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_124
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701e72d51ddd5884195b00f5d593a9b4
+      internalID: 320989226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_125
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e741a8e7cacff4fae7640f98a5082c
+      internalID: 5484141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_126
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d77bba687196b4580817d1a4afa46f
+      internalID: -1222412084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_127
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 546
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba0182318391941b260f91f18cd520
+      internalID: 1570963613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_128
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 546
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9249ce6eca672a45b160135bb814f24
+      internalID: -436300045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_129
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 546
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777e105a4555f743b4f87295ca23425
+      internalID: -720281082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_130
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 546
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2625751ebce12474b9dd945cc95614f2
+      internalID: 362766514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_131
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 512
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db925a9f2747d4abc7b8cb3edb1532
+      internalID: -32924046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_132
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 512
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd87640d87be06c4faea654ebb2b1f06
+      internalID: 894689492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_133
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 512
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e553339dd3ce4fb17550198b7f9fa
+      internalID: -1067984294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_134
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 512
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea91db05747252446a09abee1df9f85d
+      internalID: -504425362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_135
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 485
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fb4d04eff51084abae794d4586dbd3
+      internalID: 579657740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_136
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 485
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4589d00c49b611741846b7623486ba31
+      internalID: -2055442146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_137
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 485
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103c833a1084b04cb01cb6c71a887cf
+      internalID: -1952972766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_138
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 485
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d5c1f4512c7d04c90dbe3565e014cc
+      internalID: -616174504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_139
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 458
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e404ce09b9a394ebd647ceb8c27e4d
+      internalID: -656039443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_140
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 458
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86bf87dbab1bf46bfa43cad34f3b90
+      internalID: -91696662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_141
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 458
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d907ac18060ce11458ff15fe1608682e
+      internalID: -1276965599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_142
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 458
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7285ae094efc046b1d5ef0e5a813db
+      internalID: -2105391833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_143
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a29ab02f0c959047a14a23b01327ab5
+      internalID: 1631310291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_144
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7d48b6bfc8d2749912b78a2d453e9b
+      internalID: -2018808563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_145
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627275a8797dbf7429a652abe95cefbd
+      internalID: 1085926869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_146
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac32040e82dc3994f8eec20c50d8f695
+      internalID: -563151988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_147
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 396
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f1bf118cce2054e9b60a731e1e0bdb
+      internalID: -1754720029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_148
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 396
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1912cdae0a8e2749b80ca4c98470c75
+      internalID: 1166244573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_149
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 396
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a047453467eed47b6589e1195cebe8
+      internalID: -1817633178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_150
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 396
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfe74891149fe243b5457d0b612c03f
+      internalID: -243849471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_151
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 368
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8552bb530bcdf6b47acdfa99cdcfca31
+      internalID: -598532065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_152
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 368
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466145c3c600a3446a51fc599d0b5aaf
+      internalID: -2119264129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_153
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 368
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb36ccf74dc1f6459c22adb77c902fa
+      internalID: 1219747520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_154
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 368
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502eddd111a662e4a95af772acb37783
+      internalID: 63383624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_155
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 340
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fd9312bef976f4894f0ba0b1dff183
+      internalID: -822394981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_156
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 340
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f594616e357cee14c840f80504f021de
+      internalID: -1250952356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_157
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 340
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c372822a8f3fda848b18acc803715fdb
+      internalID: -280376804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_158
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 340
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5291e05db1b20384ba4f7e7cbd14d8f3
+      internalID: 740941470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_159
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 312
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f684d27ac87827e438bdde0b663dc638
+      internalID: -1521875194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_160
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3151d4b47d95e4e4c962573c7667fa53
+      internalID: 1451225835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_161
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 312
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fbd3fffaa372443bc7c6c2338ca653
+      internalID: -2136513411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_162
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 312
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848f5ba4d0626ec4dad7aaf72dd2ec20
+      internalID: -1201258738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_163
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 284
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c529bfc446d20c4f8ba9e60f73394c9
+      internalID: -1173637801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_164
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 284
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41216a3230a169488c6f6aa9315a09e
+      internalID: -314426015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_165
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 284
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798be2fdc66a3bc4794fc8d4810e5652
+      internalID: -1663125756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_166
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 284
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f874f790f1a99e4b85ff40c980ed606
+      internalID: 1656506796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_167
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 250
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46976b859c31e5144bd63dfe6dc0b80c
+      internalID: -622921473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_168
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 250
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269df45843a31b74c93d04402414265c
+      internalID: 224792992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_169
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 250
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496961f2b5a942498db2953fff83839
+      internalID: 2054025196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_170
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 250
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd8b2685a9503843a3727efd33035b3
+      internalID: 440402935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_171
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071687b8f5d37df4bb3a047df6bf7c6b
+      internalID: 1120788567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_172
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 222
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c2823cf8de1641a5e3893c3ee960b
+      internalID: -1254826020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_173
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 222
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec8429c339b0c348a5bcba59161eb44
+      internalID: -877263487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_174
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 222
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ea821ca0771c44091ecae8bc2dc155
+      internalID: 1799373360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_175
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 194
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a425bcc05a5764b96d161717ca068a
+      internalID: -772634203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_176
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 194
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd29213962124674f9cc698bb5305b39
+      internalID: 1586284649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_177
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 194
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a9ee3ce4fb9d14b8940c4400c70a87
+      internalID: 398829962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_178
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 194
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902d184a8bfc0644dba86b5637dbaf05
+      internalID: 1705620663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_179
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 166
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb8895c3caf2284e884e8848acb33b5
+      internalID: -1103847025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_180
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 166
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80afbcc21a5d4043b84f01a4fef4d5c
+      internalID: -1899850712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_181
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 166
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea613d3814f9b949b5957c95e384df3
+      internalID: -1139149195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_182
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 166
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc0b1a725b75d24c8da5a4ed3207c00
+      internalID: 157110702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_183
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4add8246088351e4a932f37c200e4504
+      internalID: 1678801348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_184
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c5b8fba2c99bb4882f8b02b1f98eca
+      internalID: -339431349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_185
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ab09ee4663da4a855b191ebe4b83a
+      internalID: -1314886279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_186
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d555e9390c01748830351d3a4b175f
+      internalID: -1704311221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_187
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 104
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 0, z: 0, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceae6aec79c1b354cb3584f3c7eebc2f
+      internalID: 47066571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_188
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03b1d55c2321304893139b37e831583
+      internalID: -539355473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_189
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b3018855e24be47b053c63d0320d0b
+      internalID: 101043650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_190
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09267fb875d12a149acc582ef6e2cb48
+      internalID: -1760619355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_191
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4efa9c0727666144b95a3a9cb4a5bc0
+      internalID: 658483568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_192
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ec8ab328ce3684984e8931702137e1
+      internalID: -1396256141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_193
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9439b6616212ac642a7a6b7e963742bb
+      internalID: 249120824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_194
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2b6d399917cb45af30b7c50b91252
+      internalID: -1278884948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_195
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b9be6f389cf164cab94af80bcf765e
+      internalID: 1077820942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_196
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2292b0d1c5dd2604dbdaa4b0f75e92eb
+      internalID: -228164856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_197
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 58
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720daef96e940c47bad1fb0a4a495c3
+      internalID: 1765842068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_198
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 58
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0057274772a036c4b9485f7508d1a407
+      internalID: 2027115488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_199
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 58
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c91f8e9172284a98d3d0dd6a9f753
+      internalID: -234866886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_200
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 58
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1e86351d1327448401d8261dc4097
+      internalID: 1479771051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_201
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492f0b5c000a2204ea3c28c91b49fdee
+      internalID: 502239459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_202
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 30
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28752ab746113574e8fb9fad9ac648f4
+      internalID: -567238943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_203
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 30
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bcaafd7f047b84e9b795baae75e148
+      internalID: 1189818003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_204
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 37
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2de1695b0ce954f910c57228e935d9
+      internalID: -1938157639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_205
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 37
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e007e298f73a1947a33b04395bc5cf9
+      internalID: 617933106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_206
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 37
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad50b2ecba1f4d44cba78a780abdee2c
+      internalID: 1213783973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_207
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 26
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bedf44a7b4cdab48975ea05a7469d3e
+      internalID: 2053208168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_208
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c96bbf32c631040ba8101425939d2d
+      internalID: 1622753694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_209
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ccc1ba67ddd574b80f4a87f4ae964e
+      internalID: -458126833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_210
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f783869fa519d408c71db7edd75ba5
+      internalID: 1674136738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_211
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f918e48f266fd5c458d9c7af3d0ec8a7
+      internalID: -1449626357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_212
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ca7f8e22d76344b94974be5b50e1c
+      internalID: -741098077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_213
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d711660a226346886e9db8d1ad774
+      internalID: 56006231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_214
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae38f87aca21ee47bbb299f2c23a88a
+      internalID: 1608062129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_215
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20822eb168417e04b8b817b1f4446e06
+      internalID: 1730750196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_216
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77107aa3c39930044b130c58d9d8b4ec
+      internalID: 1741180782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_217
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9fb7ac7ed0a34cacf6a359d42d9b1
+      internalID: 1977652134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_218
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6f0e7d80569240aeed7c42ed12d97
+      internalID: 337142423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_219
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90bed4261763bb4d9b6b1c42e2933c4
+      internalID: -705859957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_220
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc6a4c061fd5d94a8019386e3f10afa
+      internalID: 1648533732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_221
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d093df42c31e439b5d2e3b66f0dfa
+      internalID: -2005260287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimCitySheet2_222
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126d0442db861e74da2a95ccad9c7e44
+      internalID: 1188020099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SimCitySheet2_0: 1197087754
+      SimCitySheet2_1: 743380792
+      SimCitySheet2_10: -1354679156
+      SimCitySheet2_100: 1311800886
+      SimCitySheet2_101: -699928696
+      SimCitySheet2_102: -240964667
+      SimCitySheet2_103: -694176014
+      SimCitySheet2_104: -310304492
+      SimCitySheet2_105: 661515092
+      SimCitySheet2_106: 1617129522
+      SimCitySheet2_107: 400911248
+      SimCitySheet2_108: -2048270629
+      SimCitySheet2_109: -444881058
+      SimCitySheet2_11: 611623254
+      SimCitySheet2_110: -514477867
+      SimCitySheet2_111: 1768182853
+      SimCitySheet2_112: -1583300687
+      SimCitySheet2_113: -425628874
+      SimCitySheet2_114: -320586223
+      SimCitySheet2_115: 1508536782
+      SimCitySheet2_116: -1882182948
+      SimCitySheet2_117: -309095929
+      SimCitySheet2_118: 593490553
+      SimCitySheet2_119: 152727336
+      SimCitySheet2_12: 1465990503
+      SimCitySheet2_120: -1837879557
+      SimCitySheet2_121: 1856348417
+      SimCitySheet2_122: 1463543757
+      SimCitySheet2_123: -1375021982
+      SimCitySheet2_124: 320989226
+      SimCitySheet2_125: 5484141
+      SimCitySheet2_126: -1222412084
+      SimCitySheet2_127: 1570963613
+      SimCitySheet2_128: -436300045
+      SimCitySheet2_129: -720281082
+      SimCitySheet2_13: -1857627005
+      SimCitySheet2_130: 362766514
+      SimCitySheet2_131: -32924046
+      SimCitySheet2_132: 894689492
+      SimCitySheet2_133: -1067984294
+      SimCitySheet2_134: -504425362
+      SimCitySheet2_135: 579657740
+      SimCitySheet2_136: -2055442146
+      SimCitySheet2_137: -1952972766
+      SimCitySheet2_138: -616174504
+      SimCitySheet2_139: -656039443
+      SimCitySheet2_14: -464866019
+      SimCitySheet2_140: -91696662
+      SimCitySheet2_141: -1276965599
+      SimCitySheet2_142: -2105391833
+      SimCitySheet2_143: 1631310291
+      SimCitySheet2_144: -2018808563
+      SimCitySheet2_145: 1085926869
+      SimCitySheet2_146: -563151988
+      SimCitySheet2_147: -1754720029
+      SimCitySheet2_148: 1166244573
+      SimCitySheet2_149: -1817633178
+      SimCitySheet2_15: 633040086
+      SimCitySheet2_150: -243849471
+      SimCitySheet2_151: -598532065
+      SimCitySheet2_152: -2119264129
+      SimCitySheet2_153: 1219747520
+      SimCitySheet2_154: 63383624
+      SimCitySheet2_155: -822394981
+      SimCitySheet2_156: -1250952356
+      SimCitySheet2_157: -280376804
+      SimCitySheet2_158: 740941470
+      SimCitySheet2_159: -1521875194
+      SimCitySheet2_16: -892250242
+      SimCitySheet2_160: 1451225835
+      SimCitySheet2_161: -2136513411
+      SimCitySheet2_162: -1201258738
+      SimCitySheet2_163: -1173637801
+      SimCitySheet2_164: -314426015
+      SimCitySheet2_165: -1663125756
+      SimCitySheet2_166: 1656506796
+      SimCitySheet2_167: -622921473
+      SimCitySheet2_168: 224792992
+      SimCitySheet2_169: 2054025196
+      SimCitySheet2_17: 530192177
+      SimCitySheet2_170: 440402935
+      SimCitySheet2_171: 1120788567
+      SimCitySheet2_172: -1254826020
+      SimCitySheet2_173: -877263487
+      SimCitySheet2_174: 1799373360
+      SimCitySheet2_175: -772634203
+      SimCitySheet2_176: 1586284649
+      SimCitySheet2_177: 398829962
+      SimCitySheet2_178: 1705620663
+      SimCitySheet2_179: -1103847025
+      SimCitySheet2_18: -1893923787
+      SimCitySheet2_180: -1899850712
+      SimCitySheet2_181: -1139149195
+      SimCitySheet2_182: 157110702
+      SimCitySheet2_183: 1678801348
+      SimCitySheet2_184: -339431349
+      SimCitySheet2_185: -1314886279
+      SimCitySheet2_186: -1704311221
+      SimCitySheet2_187: 47066571
+      SimCitySheet2_188: -539355473
+      SimCitySheet2_189: 101043650
+      SimCitySheet2_19: -205520774
+      SimCitySheet2_190: -1760619355
+      SimCitySheet2_191: 658483568
+      SimCitySheet2_192: -1396256141
+      SimCitySheet2_193: 249120824
+      SimCitySheet2_194: -1278884948
+      SimCitySheet2_195: 1077820942
+      SimCitySheet2_196: -228164856
+      SimCitySheet2_197: 1765842068
+      SimCitySheet2_198: 2027115488
+      SimCitySheet2_199: -234866886
+      SimCitySheet2_2: 712354544
+      SimCitySheet2_20: -538463784
+      SimCitySheet2_200: 1479771051
+      SimCitySheet2_201: 502239459
+      SimCitySheet2_202: -567238943
+      SimCitySheet2_203: 1189818003
+      SimCitySheet2_204: -1938157639
+      SimCitySheet2_205: 617933106
+      SimCitySheet2_206: 1213783973
+      SimCitySheet2_207: 2053208168
+      SimCitySheet2_208: 1622753694
+      SimCitySheet2_209: -458126833
+      SimCitySheet2_21: 2044788099
+      SimCitySheet2_210: 1674136738
+      SimCitySheet2_211: -1449626357
+      SimCitySheet2_212: -741098077
+      SimCitySheet2_213: 56006231
+      SimCitySheet2_214: 1608062129
+      SimCitySheet2_215: 1730750196
+      SimCitySheet2_216: 1741180782
+      SimCitySheet2_217: 1977652134
+      SimCitySheet2_218: 337142423
+      SimCitySheet2_219: -705859957
+      SimCitySheet2_22: -1265168726
+      SimCitySheet2_220: 1648533732
+      SimCitySheet2_221: -2005260287
+      SimCitySheet2_222: 1188020099
+      SimCitySheet2_23: 938630191
+      SimCitySheet2_24: 600468883
+      SimCitySheet2_25: -1539175487
+      SimCitySheet2_26: 447955084
+      SimCitySheet2_27: -1589897326
+      SimCitySheet2_28: -787231911
+      SimCitySheet2_29: 1621782937
+      SimCitySheet2_3: -1643029422
+      SimCitySheet2_30: -966768664
+      SimCitySheet2_31: -829566883
+      SimCitySheet2_32: -1929889375
+      SimCitySheet2_33: -1359657982
+      SimCitySheet2_34: 1795931544
+      SimCitySheet2_35: -107892370
+      SimCitySheet2_36: 875856759
+      SimCitySheet2_37: -1694914102
+      SimCitySheet2_38: 1376433030
+      SimCitySheet2_39: -439599141
+      SimCitySheet2_4: -1215466971
+      SimCitySheet2_40: 1292542487
+      SimCitySheet2_41: 1874166492
+      SimCitySheet2_42: 766858320
+      SimCitySheet2_43: 702672044
+      SimCitySheet2_44: 1769532558
+      SimCitySheet2_45: -1059242413
+      SimCitySheet2_46: 707801382
+      SimCitySheet2_47: 1909273308
+      SimCitySheet2_48: -2115866853
+      SimCitySheet2_49: 1204495148
+      SimCitySheet2_5: 1444733778
+      SimCitySheet2_50: -391165396
+      SimCitySheet2_51: -1979403946
+      SimCitySheet2_52: 1068509605
+      SimCitySheet2_53: 1394617136
+      SimCitySheet2_54: -1651884360
+      SimCitySheet2_55: -2050632133
+      SimCitySheet2_56: 212188477
+      SimCitySheet2_57: 2119164908
+      SimCitySheet2_58: 1646817292
+      SimCitySheet2_59: 1379321834
+      SimCitySheet2_6: -392341425
+      SimCitySheet2_60: 161407787
+      SimCitySheet2_61: -769222291
+      SimCitySheet2_62: -56380696
+      SimCitySheet2_63: -808011552
+      SimCitySheet2_64: 2030993062
+      SimCitySheet2_65: -1433933888
+      SimCitySheet2_66: -598324637
+      SimCitySheet2_67: -1400982833
+      SimCitySheet2_68: 1906191025
+      SimCitySheet2_69: 75328833
+      SimCitySheet2_7: -1883095820
+      SimCitySheet2_70: -381448496
+      SimCitySheet2_71: -1108055104
+      SimCitySheet2_72: -1782584721
+      SimCitySheet2_73: 1642683252
+      SimCitySheet2_74: 729866139
+      SimCitySheet2_75: -385469242
+      SimCitySheet2_76: -348061851
+      SimCitySheet2_77: -1394734459
+      SimCitySheet2_78: 871481186
+      SimCitySheet2_79: -444941769
+      SimCitySheet2_8: -1042414052
+      SimCitySheet2_80: 1285240391
+      SimCitySheet2_81: 575739856
+      SimCitySheet2_82: -349853030
+      SimCitySheet2_83: -975515360
+      SimCitySheet2_84: -1586305044
+      SimCitySheet2_85: -694823867
+      SimCitySheet2_86: -78846349
+      SimCitySheet2_87: 194104541
+      SimCitySheet2_88: -395318208
+      SimCitySheet2_89: -1321577133
+      SimCitySheet2_9: 1660158535
+      SimCitySheet2_90: 1159727664
+      SimCitySheet2_91: 1148090686
+      SimCitySheet2_92: 1438587339
+      SimCitySheet2_93: -1968219192
+      SimCitySheet2_94: -1565770076
+      SimCitySheet2_95: -2033402008
+      SimCitySheet2_96: -1798202772
+      SimCitySheet2_97: -286684373
+      SimCitySheet2_98: -1725930904
+      SimCitySheet2_99: 914511348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
