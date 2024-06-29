@@ -17,11 +17,11 @@ public sealed class UIPanelTransitionManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(Instance);
+            DontDestroyOnLoad(this);
         }
         else
         {
-            Destroy(Instance);
+            Destroy(this);
         }
     }
 
