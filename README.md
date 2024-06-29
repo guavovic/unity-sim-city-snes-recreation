@@ -28,7 +28,7 @@ git clone https://github.com/guavovic/unity-sim-city-snes-recreation.git
 Se você deseja colaborar com o desenvolvimento deste projeto de recriação, sinta-se à vontade para enviar pull requests. Contribuições são muito bem-vindas! 
 
 ## Licença
-Este projeto está licenciado sob a [LICENSE.md](https://github.com/guavovic/unity-sim-city-snes-recreation/blob/main/LICENSE). Consulte o arquivo LICENSE para mais informações.\
+Este projeto está licenciado sob a [LICENSE.md](https://github.com/guavovic/unity-sim-city-snes-recreation/blob/main/LICENSE).
 
 > [!NOTE]
 > Este projeto foi desenvolvido como parte de aprendizado pessoal.
