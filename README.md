@@ -34,7 +34,7 @@ Lançado em 1989, [Sim City](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C
 ```
 git clone https://github.com/guavovic/unity-sim-city-snes-recreation.git 
 ```
-2. Abra o projeto na Unity *[Unity](https://unity.com/pt) 2021.3.x ou superior)*.
+2. Abra o projeto na [Unity](https://unity.com/pt) *(2021.3.x ou superior)*.
 3. Execute o jogo no modo de visualização para testar suas alterações.
    
 ## Como Instalar
@@ -46,5 +46,5 @@ Se você deseja colaborar com o desenvolvimento deste projeto de recriação, si
 ## Licença
 Este projeto está licenciado sob a [LICENSE.md](https://github.com/guavovic/unity-sim-city-snes-recreation/blob/main/LICENSE).
 
-> [!NOTE]
+> [!IMPORTANT]
 > Este projeto foi desenvolvido como parte de aprendizado pessoal.
