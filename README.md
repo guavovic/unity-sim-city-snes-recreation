@@ -1,5 +1,5 @@
 # Sim City SNES Recreation (UNITY) (C#)
-Este projeto visa recriar o clássico [Sim City (1989)](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)) do Super Nintendo na [Unity](https://unity.com/pt), com uma abordagem de desenvolvimento própria. O objetivo é capturar a essência do jogo original, preservando a jogabilidade clássica, enquanto incorporamos melhorias gráficas, de desempenho e mecânicas novas para uma experiência nostalgica e aprimorada para a atualidade.
+Este projeto visa recriar o clássico [Sim City (1989)](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)) do Super Nintendo na [Unity](https://unity.com/pt), com uma abordagem de desenvolvimento própria. O objetivo é recriar o jogo original, porém com algumas melhorias e mecânicas novas (ideias que tive enquanto eu estava nesse processo de recriação do jogo).
 
 <p align="center">
   <img src="" alt="Gameplay Preview 1" width="400">
