@@ -1,13 +1,26 @@
-# Unity Sim City SNES Recreation
-Este projeto visa recriar o [Sim City (1989)](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)), utilizando a engine [Unity](https://unity.com/pt).
+# Sim City SNES Recreation (UNITY) (CSHARP)
+Este projeto visa recriar o clássico [Sim City (1989)](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)) do Super Nintendo na [Unity](https://unity.com/pt), com uma abordagem de desenvolvimento própria. O objetivo é capturar a essência do jogo original, preservando a jogabilidade clássica, enquanto incorporamos melhorias gráficas, de desempenho e mecânicas novas para uma experiência nostalgica e aprimorada para a atualidade.
+
+<p align="center">
+  <img src="" alt="Gameplay Preview 1" width="400">
+  <img src="imagemtransparente" alt="" width="20" height="1">
+  <img src="" alt="Gameplay Preview 2" width="400">
+</p>
+
+> [!NOTE]
+> Por enquanto esta no inicio do projeto, vou fazaer ainda montar os diagramas, fluxos de telas, um documento expicando cada coisa e suas mecanicas.
 
 ## Sobre
-Lançado em 1989, "Sim City" foi desenvolvido pela Maxis e originalmente lançado para o Super Nintendo (SNES). Este jogo de simulação e construção de cidades permite aos jogadores criar e gerenciar uma cidade virtual. O objetivo principal é equilibrar diversos aspectos da cidade, incluindo habitação, comércio, indústria, transporte e serviços públicos.
+Lançado em 1989, [Sim City](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)) foi desenvolvido pela [Maxis](https://pt.wikipedia.org/wiki/Maxis) e originalmente lançado para o [Super Nintendo](https://pt.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) (SNES). Este jogo de simulação e construção de cidades permite aos jogadores criar e gerenciar uma cidade virtual. O objetivo principal é equilibrar diversos aspectos da cidade, incluindo habitação, comércio, indústria, transporte e serviços públicos.
 
-Por enquanto esta no inicio do projeto, vou fazaer ainda montar os diagramas, fluxos de telas, um documento expicando cada coisa e suas mecanicas.
+<p align="center">
+  <img src="https://64.media.tumblr.com/b0b16f820384c5d62cdbc319b8d3e048/tumblr_nri31eApnf1u0rseao1_540.gifv" alt="Sim City Gif 1" width="400" height="177">
+  <img src="imagemtransparente" alt="" width="20" height="1">
+  <img src="https://media1.tenor.com/m/Q-hejGAvYXMAAAAd/sim-city-snes.gif" alt="Sim City Gif 2" width="200">
+</p>
 
 ## Novas Funcionalidades Planejadas
-*
+* 
 
 ## Documentação
 * 
@@ -16,7 +29,7 @@ Por enquanto esta no inicio do projeto, vou fazaer ainda montar os diagramas, fl
 * [.NET](https://dotnet.microsoft.com/pt-br/download) 6.x ou superior.
 * [Unity](https://unity.com/pt) 2021.3.x ou superior.
 
-## Como Abrir Projeto1. 
+## Como Abrir Projeto
 1. Clone o Repositório:
 ```
 git clone https://github.com/guavovic/unity-sim-city-snes-recreation.git 
