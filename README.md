@@ -35,7 +35,7 @@ Lançado em 1989, [Sim City](https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C
 git clone https://github.com/guavovic/unity-sim-city-snes-recreation.git 
 ```
 2. Abra o projeto na [Unity](https://unity.com/pt) *(2021.3.x ou superior)*.
-3. Execute o jogo no modo de visualização para testar suas alterações.
+3. Execute o jogo na tela de Game.
    
 ## Como Instalar
 *
