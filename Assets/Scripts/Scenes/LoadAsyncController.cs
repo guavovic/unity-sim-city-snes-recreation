@@ -14,7 +14,7 @@ public class LoadAsyncController : MonoBehaviour
 
         while (!AsyncLoad.isDone)
         {
-            Debug.Log("Carregando nova cena...");
+            Debug.Log($"Carregando cena: {sceneField.SceneName}...");
             yield return null;
         }
     }

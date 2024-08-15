@@ -4,9 +4,6 @@ using UnityEngine;
 
 public sealed class UIPanelTransitionManager : MonoBehaviour
 {
-    [SerializeField] private float fadeDuration = 0.5f;
-    [SerializeField] private float betweenFadeDuration = 0.5f;
-
     private UIPanelsManager _uIPanelsManager;
     private UIFadeTransitionPanelSettings _uIFadeTransitionPanelSettings;
 
@@ -31,14 +28,14 @@ public sealed class UIPanelTransitionManager : MonoBehaviour
         _uIFadeTransitionPanelSettings = FindObjectOfType<UIFadeTransitionPanelSettings>(true);
     }
 
-    public void ExecutePanelTransition(NavigationActionType navigationAction, UIPanelType panelType, params Action[] actionsBetweenFade)
+    public void ExecutePanelTransition(NavigationActionType navigationAction, UIPanelType panelType, float fadeDuration = 0.5f, float betweenFadeDuration = 0.5f, params Action[] actionsBetweenFade)
     {
-        StartCoroutine(PerformPanelTransitionCoroutine(navigationAction, panelType, actionsBetweenFade));
+        StartCoroutine(PerformPanelTransitionCoroutine(navigationAction, panelType, fadeDuration, betweenFadeDuration, actionsBetweenFade));
     }
 
-    private IEnumerator PerformPanelTransitionCoroutine(NavigationActionType navigationAction, UIPanelType panelType, params Action[] actionsBetweenFade)
+    private IEnumerator PerformPanelTransitionCoroutine(NavigationActionType navigationAction, UIPanelType panelType, float fadeDuration, float betweenFadeDuration, params Action[] actionsBetweenFade)
     {
-        yield return StartCoroutine(UIFadeTransition.FadeInCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
+        yield return StartCoroutine(UIFadeTransitionHelper.FadeInCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
 
         if (navigationAction == NavigationActionType.Next)
         {
@@ -53,6 +50,6 @@ public sealed class UIPanelTransitionManager : MonoBehaviour
             action?.Invoke();
 
         yield return new WaitForSeconds(betweenFadeDuration);
-        yield return StartCoroutine(UIFadeTransition.FadeOutCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
+        yield return StartCoroutine(UIFadeTransitionHelper.FadeOutCoroutine(_uIFadeTransitionPanelSettings, fadeDuration));
     }
 }

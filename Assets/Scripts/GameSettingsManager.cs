@@ -1,10 +1,11 @@
-using UnityEngine;
-
 public sealed class GameSettings
 {
-    public CityModel CurrentCity { get; private set; }
-    public float GameSpeed { get; private set; } = 1f;
+    public City City { get; private set; } = null;
+    public GameDifficultyType GameDifficultyType { get; private set; } = GameDifficultyType.None;
+    public GameSpeedType GameSpeedType { get; private set; } = GameSpeedType.Sleep;
 
-    public void SetCurrentCity(CityModel city) { CurrentCity = city; }
-    public void ModifyGameSpeed(float speed) { GameSpeed = speed; }
+    public void SetCity(City city) {  City = city; }
+    public bool CityCreated() { return City != null; }
+    public void SetGameDifficultyType(GameDifficultyType difficultyType) { GameDifficultyType = difficultyType; }
+    public void ModifyGameSpeedType(GameSpeedType speedType) { GameSpeedType = speedType; }
 }

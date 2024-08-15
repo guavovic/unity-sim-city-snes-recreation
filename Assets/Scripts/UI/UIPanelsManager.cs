@@ -5,30 +5,32 @@ public sealed class UIPanelsManager : MonoBehaviour
 {
     [SerializeField] private List<UIPanel> uIPanelModels;
 
-    private Stack<UIPanel> _panelStack;
+    private readonly Stack<UIPanel> _panelStack = new Stack<UIPanel>();
     private UIPanel _currentPanelActive;
-
-    private void Awake()
-    {
-        _panelStack = new Stack<UIPanel>();
-    }
 
     private void Start()
     {
         if (uIPanelModels.Count > 0)
         {
             _currentPanelActive = FindUIPanelPerType(UIPanelType.ChooseGameMode);
-            _currentPanelActive.Panel.SetActive(true);
-            _panelStack.Push(_currentPanelActive);
+
+            if (_currentPanelActive != null && _currentPanelActive.Panel != null)
+            {
+                _currentPanelActive.Panel.SetActive(true);
+                _panelStack.Push(_currentPanelActive);
+            }
         }
     }
 
 #if UNITY_EDITOR
     private void OnValidate()
     {
-        foreach (var panel in uIPanelModels)
+        if (uIPanelModels != null)
         {
-            panel.SetName(panel.Type.ToString());
+            foreach (var panel in uIPanelModels)
+            {
+                panel.SetName(panel.Type.ToString());
+            }
         }
     }
 #endif

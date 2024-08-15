@@ -27,27 +27,41 @@ public sealed class CameraController : MonoBehaviour
     private Vector3 _targetPosition;
     private Vector3 _velocity = Vector3.zero;
 
-    private GameManager _gameManager;
+    private bool _cameraInitialized = false;
+
+    private CameraFocusHandler _cameraFocusController;
 
     public static CameraController Instance { get; private set; }
 
     private void Awake() { Instance = this; }
 
-    private void Start() { _gameManager = GameManager.Instance; }
-
     public void Initialize()
     {
+        if (mainCamera == null)
+        {
+            Debug.LogWarning("main Camera not seted.");
+            return;
+        }
+
+        _cameraFocusController ??= new CameraFocusHandler(mainCamera);
+
         _targetOrthographicSize = mainCamera.orthographicSize;
         _targetPosition = mainCamera.transform.position;
         _targetPosition.z = mainCamera.transform.position.z;
-        var mapData = _gameManager.GameSettings.CurrentCity.MapData;
-        _mapMinBounds = new Vector2(mapData.MapBounds.min.x, mapData.MapBounds.min.y);
-        _mapMaxBounds = new Vector2(mapData.MapBounds.max.x, mapData.MapBounds.max.y);
+
+        var mapInfo = GameManager.Instance.GameSettings.City.MapInfo;
+
+        _mapMinBounds = new Vector2(mapInfo.Bounds.min.x, mapInfo.Bounds.min.y);
+        _mapMaxBounds = new Vector2(mapInfo.Bounds.max.x, mapInfo.Bounds.max.y);
+
+        _cameraFocusController.CenterCameraOnPosition(mapInfo.Bounds.center);
+
+        _cameraInitialized = true;
     }
 
     private void Update()
     {
-        if (!_gameManager.GameStateController.IsBusy())
+        if (_cameraInitialized && !GameStateController.IsBusy())
         {
             HandleCameraMovement();
             HandleCameraZoom();

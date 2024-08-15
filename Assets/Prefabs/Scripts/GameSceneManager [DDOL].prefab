@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6117817785870453498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920659157201769036}
+  - component: {fileID: 3264759372092156368}
+  m_Layer: 0
+  m_Name: GameSceneManager [DDOL]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1920659157201769036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6117817785870453498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3264759372092156368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6117817785870453498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa24732080ade842843176df1922fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allSceneList:
+  - sceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
+    sceneName: Splash
+  - sceneAsset: {fileID: 102900000, guid: 50db70dbc0f9f9a4395f168c48462ae4, type: 3}
+    sceneName: Intro
+  - sceneAsset: {fileID: 102900000, guid: 59ae2ad7d72d0f647a53821acab0540b, type: 3}
+    sceneName: MainMenu
+  - sceneAsset: {fileID: 102900000, guid: 9ec9704d796a58045a186b6dfe09547e, type: 3}
+    sceneName: Gameplay
+  currentScene:
+    sceneAsset: {fileID: 0}
+    sceneName: 
+  fadeDuration: 0.5
