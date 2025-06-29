@@ -59,17 +59,18 @@ public sealed class CameraController : MonoBehaviour
         _cameraInitialized = true;
     }
 
-    private void Update()
+    public void HandleCameraMovement()
     {
         if (_cameraInitialized && !GameStateController.IsBusy())
         {
-            HandleCameraMovement();
-            HandleCameraZoom();
-            SmoothCameraPosition();
+            HandleMovement();
+            HandleZoom();
+            SmoothPosition();
         }
     }
 
-    private void HandleCameraMovement()
+
+    private void HandleMovement()
     {
         float speedMultiplier = _targetOrthographicSize / mainCamera.orthographicSize;
         Vector3 newPosition = _targetPosition + moveSpeed * speedMultiplier * Time.deltaTime * CalculateMovementDirection();
@@ -117,7 +118,7 @@ public sealed class CameraController : MonoBehaviour
         _targetPosition = new Vector3(clampedX, clampedY, _targetPosition.z);
     }
 
-    private void HandleCameraZoom()
+    private void HandleZoom()
     {
         float scrollInput = Input.GetAxis("Mouse ScrollWheel") * zoomSensitivity;
 
@@ -174,7 +175,7 @@ public sealed class CameraController : MonoBehaviour
         }
     }
 
-    private void SmoothCameraPosition()
+    private void SmoothPosition()
     {
         mainCamera.transform.position = Vector3.SmoothDamp(mainCamera.transform.position, _targetPosition, ref _velocity, moveSmoothTime);
     }

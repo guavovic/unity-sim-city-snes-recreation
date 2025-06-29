@@ -50,11 +50,12 @@ public sealed class MapInitializer : MonoBehaviour
         {
             for (int y = 0; y < mapMatrix.Height; y++)
             {
-                MapTile tile = mapMatrix.Tiles[x, y];
-
-                tile.AssignGameObject(new GameObject());
-                tile.SetParent(transform);
-                tile.AssignSpriteRenderer(tile.GameObject.AddComponent<SpriteRenderer>());
+                var newGameObject = new GameObject();
+                var mapTileGameObject = newGameObject.AddComponent<MapTileGameObject>();
+                mapTileGameObject.SetTile(mapMatrix.Tiles[x, y]);
+                mapTileGameObject.Tile.AssignGameObject(newGameObject);
+                mapTileGameObject.Tile.SetParent(transform);
+                mapTileGameObject.Tile.SetSpriteRenderer(mapTileGameObject.Tile.GameObject.AddComponent<SpriteRenderer>());
             }
         }
     }
