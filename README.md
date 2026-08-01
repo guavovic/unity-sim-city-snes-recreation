@@ -1,6 +1,6 @@
 # Sim City SNES Recreation (Unity / C#)
 
-Recreation of the SNES classic [SimCity (1989)](https://en.wikipedia.org/wiki/SimCity_(1989_video_game)) in [Unity](https://unity.com), built with my own development approach. The goal is to rebuild the original game while adding improvements and new mechanics — ideas that came up during the recreation process.
+Recreation of the SNES classic [SimCity (1989)](https://en.wikipedia.org/wiki/SimCity_(1989_video_game)) in [Unity](https://unity.com), built with my own development approach. The goal is to rebuild the original game while adding improvements and new mechanics: ideas that came up during the recreation process.
 
 > [!NOTE]
 > The project is still in an early stage. Diagrams, screen flows and the document explaining each system and mechanic haven't been written yet.
