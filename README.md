@@ -7,7 +7,7 @@ Recreation of the SNES classic [SimCity (1989)](https://en.wikipedia.org/wiki/Si
 
 ## About
 
-Released in 1989 and developed by [Maxis](https://en.wikipedia.org/wiki/Maxis), [SimCity](https://en.wikipedia.org/wiki/SimCity_(1989_video_game)) originally launched for the [Super Nintendo](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) (SNES). This city-building simulation lets players create and manage a virtual city, balancing housing, commerce, industry, transportation and public services.
+Developed by [Maxis](https://en.wikipedia.org/wiki/Maxis), [SimCity](https://en.wikipedia.org/wiki/SimCity_(1989_video_game)) is a city-building simulation that lets players create and manage a virtual city, balancing housing, commerce, industry, transportation and public services.
 
 <p align="center">
   <img src="https://64.media.tumblr.com/b0b16f820384c5d62cdbc319b8d3e048/tumblr_nri31eApnf1u0rseao1_540.gifv" alt="Sim City Gif 1" width="400" height="177">
